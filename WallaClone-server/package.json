@@ -1,0 +1,30 @@
+{
+  "name": "wallacloneservidor",
+  "version": "1.0.0",
+  "description": "API para WallaClone",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Manuel Fores",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "html-to-text": "^5.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "juice": "^6.0.0",
+    "mongoose": "^5.7.12",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.3",
+    "pug": "^2.0.4"
+  }
+}
