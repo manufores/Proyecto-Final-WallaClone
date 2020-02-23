@@ -52,3 +52,9 @@ En caso de haberse generado el fichero build y, se requiera hacer cualquier modi
 
 El despliegue de este proyecto está realizado sobre una instancia de un servidor de AWS.
 Como web service, se ha utilizado Nginx y, para la persistencia del servidor NodeJs se ha utilizado PM2.
+
+### Acceso al proyecto en producción
+
+Dirección de la aplicación: http://18.218.22.245/
+
+**Nota: La función de resetear el password envía un correo electrónico, el cual no llegará a una dirección de correo real, se captura con la aplicación Mailtrap.
